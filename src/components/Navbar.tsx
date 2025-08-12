@@ -16,7 +16,9 @@ import { useTheme } from "next-themes";
 import { SidebarTrigger, useSidebar } from "./ui/sidebar";
 
 const Navbar = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { theme, setTheme } = useTheme();
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { toggleSidebar } = useSidebar();
   return (
     <nav className="p-4 flex items-center justify-between sticky top-0 bg-background z-10">
